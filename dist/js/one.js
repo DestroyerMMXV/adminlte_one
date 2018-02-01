@@ -1,11 +1,13 @@
 $(function(){
-
     $(".dynamicLink").click(function(e){
       e.preventDefault();
       $("li").removeClass("active");
       $(this).parent().addClass("active");
       loadView($(this).attr("href"));
     });
+
+    //Load default page
+    loadView("pages/pageOne.html");
 });
 
 
