@@ -10,6 +10,20 @@ AdminLTE is an open source project by [AdminLTE.IO](https://adminlte.io) that is
 
 
 
+### How to use:
+In order to add a new page open the index.html and move to the `<ul>` on line 260.
+Ad a new `<li>` that contains the link for your new page, just copy a existing one and modify it.
+  
+In the folder /pages you add your html file which will be displayed in the main view after clicking the link.
+Also copy one of the existing files in order to have the correct DOM structure.
+
+
+
+
+![alt text](https://i.imgur.com/jrF5SHk.gif "AdminLTE ONE")
+
+
+
 ### Change log
 2018-02-01 =>  Release of the first working code.
 
